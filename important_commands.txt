@@ -1,0 +1,5 @@
+# Prisma
+Install cli: bun add -d prisma
+Generate client: bunx --bun prisma generate
+Migrate db: bunx --bun prisma migrate dev
+Start studio: bunx --bun prisma studio

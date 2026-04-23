@@ -1,0 +1,1 @@
+@CurrentUser() user: { userId: string; tokenId: string }

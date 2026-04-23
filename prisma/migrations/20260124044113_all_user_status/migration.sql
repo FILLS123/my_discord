@@ -1,0 +1,6 @@
+-- CreateEnum
+CREATE TYPE "UserStatus" AS ENUM ('INCOMPLETE', 'PROFILE_DONE');
+
+-- AlterTable
+ALTER TABLE "User" ADD COLUMN     "status" "UserStatus" NOT NULL DEFAULT 'INCOMPLETE',
+ALTER COLUMN "username" DROP NOT NULL;
